@@ -6,20 +6,20 @@
 <meta name="keywords" content="Nick Rwabuneza, Software Developer, Web Developer, Kigali, Rwanda, Website Design, Koracraft" />
 <meta name="author" content="Nick Rwabuneza" />
 <meta name="robots" content="index, follow" />
-<link rel="canonical" href="https://yoursite.vercel.app" />
+<link rel="canonical" href="https://rwabuneza.vercel.app" />
 
 <!-- ======= OPEN GRAPH (WhatsApp, Facebook preview) ======= -->
 <meta property="og:title" content="Nick Rwabuneza — Software Developer" />
 <meta property="og:description" content="I build clean, fast websites for businesses and individuals. Based in Kigali, Rwanda." />
-<meta property="og:image" content="https://yoursite.vercel.app/nick.jpg" />
-<meta property="og:url" content="https://yoursite.vercel.app" />
+<meta property="og:image" content="https://rwabuneza.vercel.app/nick.jpg" />
+<meta property="og:url" content="https://rwabuneza.vercel.app" />
 <meta property="og:type" content="website" />
 
 <!-- ======= TWITTER/X PREVIEW ======= -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Nick Rwabuneza — Software Developer" />
 <meta name="twitter:description" content="I build clean, fast websites for businesses and individuals. Based in Kigali, Rwanda." />
-<meta name="twitter:image" content="https://yoursite.vercel.app/nick.jpg" />
+<meta name="twitter:image" content="https://rwabuneza.vercel.app/nick.jpg" />
 
 <!-- ======= GOOGLE STRUCTURED DATA ======= -->
 <script type="application/ld+json">
@@ -28,7 +28,7 @@
   "@type": "Person",
   "name": "Nick Rwabuneza",
   "jobTitle": "Software Developer",
-  "url": "https://yoursite.vercel.app",
+  "url": "https://rwabuneza.vercel.app",
   "email": "nickrwabuneza@gmail.com",
   "telephone": "+250792989889",
   "address": {
@@ -53,7 +53,7 @@
 
 <!-- OR use emoji favicon -->
 <!-- <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>"> -->
- <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
 </head>
 <body>
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%236B4F2F'/><text x='50' y='68' font-size='55' font-family='Arial' font-weight='bold' fill='white' text-anchor='middle'>N</text></svg>">
@@ -591,28 +591,29 @@
                     <h3>Or send me a message here</h3>
                     <p>Fill in your details and I will get back to you</p>
 
-<form id="contactForm">
+                     <form id="contactForm">
+    <input type="hidden" name="access_key" value="10af064c-42e8-4581-8ea5-2def01eb1768" />
+    <input type="hidden" name="subject" value="New Portfolio Message from Nick's Website" />
 
-  <div class="form-group">
-    <label for="name">Your Name</label>
-    <input type="text" id="name" placeholder="What is your name?" required />
-  </div>
+    <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="What is your name?" required />
+    </div>
 
-  <div class="form-group">
-    <label for="email">Your Email</label>
-    <input type="email" id="email" placeholder="Where can I reach you?" required />
-  </div>
+    <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="Where can I reach you?" required />
+    </div>
 
-  <div class="form-group">
-    <label for="message">Your Message</label>
-    <textarea id="message" rows="5" placeholder="What would you like to say?" required></textarea>
-  </div>
+    <div class="form-group">
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="What would you like to say?" required></textarea>
+    </div>
 
-  <button type="submit" class="btn-submit" id="submitBtn">
-    <span id="btnText">Send Message</span>
-    <i class="fas fa-paper-plane"></i>
-  </button>
-
+    <button type="submit" class="btn-submit" id="submitBtn">
+        <span id="btnText">Send Message</span>
+        <i class="fas fa-paper-plane"></i>
+    </button>
 </form>
                 </div>
 
