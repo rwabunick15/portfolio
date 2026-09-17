@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rwabuneza.vercel.app/sitemap.xml
